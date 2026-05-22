@@ -1,11 +1,9 @@
 ---
-Title: Great Weapon Fighting
 tags:
   - dnd
   - feat
-Status: complete
-version: 0
 publish: "true"
+web_publish: "true"
 ---
 # Great Weapon Fighting
 

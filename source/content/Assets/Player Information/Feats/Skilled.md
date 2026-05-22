@@ -1,11 +1,9 @@
 ---
-Title: Skilled
 tags:
   - dnd
   - feat
-Status: complete
-version: 0
 publish: "true"
+web_publish: "true"
 ---
 # Skilled
 

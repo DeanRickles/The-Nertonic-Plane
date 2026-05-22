@@ -13,7 +13,7 @@ publish: "true"
 
 As an Ratfolk, you have these special traits.
 
-_**Darkvision.**_ You have [[Information/DM/Glossary/Darkvision|Darkvision]] with a range of 60 feet.
+_**Darkvision.**_ You have [[DM/Glossary/Darkvision|Darkvision]] with a range of 60 feet.
 
 _**Naturally Stealthy.**_ You can take the [[Hide]] action even when you are obscured only by a creature that is at least one size larger than you.
 

@@ -24,3 +24,5 @@ _**Prerequisite.**_ To take a feat, you must meet any prerequisite in its descri
 _**Benefit.**_ The benefits of a feat are detailed after any prerequisites are listed. If you have a feat, you gain its benefits.
 
 _**Repeatable.**_ A feat can be taken only once unless its description states otherwise in a "Repeatable" subsection.
+
+## Feat list

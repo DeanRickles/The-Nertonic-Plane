@@ -1,12 +1,9 @@
 ---
-Title: Boon of Truesight
 tags:
   - dnd
-  - feat
   - boon
-Status: complete
-version: 0
 publish: "true"
+web_publish: "true"
 ---
 # Boon of Truesight
 
