@@ -3,7 +3,6 @@ Title: Boon of Combat Prowess
 tags:
   - dnd
   - feat
-  - boon
 Status: complete
 version: 0
 publish: "true"
