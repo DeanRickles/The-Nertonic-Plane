@@ -1,9 +1,8 @@
 ---
 tags:
   - dnd
-  - feat
-publish: "true"
-web_publish: "true"
+  - boon
+publish: true
 ---
 # Boon of Combat Prowess
 

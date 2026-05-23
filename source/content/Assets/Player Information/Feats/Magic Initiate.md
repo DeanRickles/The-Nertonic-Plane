@@ -2,8 +2,7 @@
 tags:
   - dnd
   - feat
-publish: "true"
-web_publish: "true"
+publish: true
 ---
 # Magic Initiate
 

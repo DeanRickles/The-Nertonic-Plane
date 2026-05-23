@@ -1,9 +1,8 @@
 ---
-Title: Bard - College of Lore
 tags:
 Status: todo
 version: 0
-publish: "true"
+publish: true
 ---
 # Bard
 

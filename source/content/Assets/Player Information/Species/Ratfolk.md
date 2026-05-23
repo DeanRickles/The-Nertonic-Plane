@@ -1,9 +1,8 @@
 ---
-Title: Ratfolk
 tags:
   - species
 Status: complete
-publish: "true"
+publish: true
 ---
 # Ratfolk
 

@@ -4,8 +4,7 @@ tags:
   - spell
   - level-2
   - evocation
-publish: "true"
-web_publish: "true"
+publish: true
 ---
 
 # Acid Arrow

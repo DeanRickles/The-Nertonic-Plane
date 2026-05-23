@@ -3,9 +3,8 @@ tags:
   - dnd
   - spell
   - cantrip
-  - illusion 
-publish: "true"
-web_publish: "true"
+  - illusion
+publish: true
 ---
 # Minor Illusion
 

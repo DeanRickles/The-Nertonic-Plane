@@ -1,11 +1,12 @@
 ---
-Title: Feats
 tags:
   - dnd
   - feat
 Status: complete
 version: 0
-publish: "true"
+publish: true
+hide_from_all:
+hidden_Explorer:
 ---
 # Feats
 

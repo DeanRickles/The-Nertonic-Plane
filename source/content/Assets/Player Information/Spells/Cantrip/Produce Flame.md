@@ -4,8 +4,7 @@ tags:
   - spell
   - cantrip
   - conjuration
-publish: "true"
-web_publish: "true"
+publish: true
 ---
 # Produce Flame
 

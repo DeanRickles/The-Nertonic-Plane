@@ -3,9 +3,8 @@ tags:
   - dnd
   - spell
   - cantrip
-  - conjunction 
-publish: "true"
-web_publish: "true"
+  - conjunction
+publish: true
 ---
 # Mage Hand
 

@@ -4,8 +4,7 @@ tags:
   - spell
   - cantrip
   - necromancy
-publish: "true"
-web_publish: "true"
+publish: true
 ---
 # Poison Spray
 

@@ -1,9 +1,8 @@
 ---
-Title: Grung
 tags:
   - species
 Status: complete
-publish: "true"
+publish: true
 ---
 # Grung
 

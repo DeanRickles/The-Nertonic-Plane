@@ -3,9 +3,8 @@ tags:
   - dnd
   - spell
   - cantrip
-  - transmutation 
-publish: "true"
-web_publish: "true"
+  - transmutation
+publish: true
 ---
 # Elementalism
 

@@ -1,9 +1,8 @@
 ---
-Title: Bard  - Base Only
 tags:
 Status: todo
 version: 0
-publish: "true"
+publish: true
 ---
 # Bard
 

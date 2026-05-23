@@ -2,8 +2,8 @@
 tags:
   - dnd
   - boon
-publish: "true"
-web_publish: "true"
+publish: true
+hidden_Explorer: true
 ---
 # Boon of Irresistible Offense
 

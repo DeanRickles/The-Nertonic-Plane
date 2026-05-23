@@ -4,8 +4,7 @@ Tags:
   - spell
   - cantrip
   - illusion
-web_publish: "true"
-publish: "true"
+publish: true
 ---
 # Spell name
 _Level Cantrip, Illusion School (Bard, Sorcerer, Wizard, Warlock)_

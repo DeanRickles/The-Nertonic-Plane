@@ -4,8 +4,7 @@ tags:
   - spell
   - cantrip
   - abjuration
-publish: "true"
-web_publish: "true"
+publish: true
 ---
 # Resistance
 

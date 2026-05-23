@@ -3,9 +3,8 @@ tags:
   - dnd
   - spell
   - cantrip
-  - divination 
-publish: "true"
-web_publish: "true"
+  - divination
+publish: true
 ---
 # Guidance
 

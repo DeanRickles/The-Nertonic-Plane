@@ -4,8 +4,7 @@ tags:
   - spell
   - cantrip
   - evocation
-publish: "true"
-web_publish: "true"
+publish: true
 ---
 # Starry Wisp
 

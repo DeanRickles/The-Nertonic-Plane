@@ -3,9 +3,8 @@ tags:
   - dnd
   - spell
   - cantrip
-  - enchantment 
-publish: "true"
-web_publish: "true"
+  - enchantment
+publish: true
 ---
 # Vicious Mockery
 
