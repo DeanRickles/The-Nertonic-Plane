@@ -65,7 +65,7 @@ _**Using Bardic Inspiration.**_ As a [[Bonus Action]], you can inspire another c
 
 Once within the next hour when the creature fails a [[D20 Test]], the creature can roll the Bardic Inspiration die and add the number rolled to the d20, potentially turning the failure into a success. A Bardic Inspiration die is expended when it's rolled.
 
-_**Number of Uses.**_ You can confer a Bardic Inspiration die a number of times equal to your Charisma modifier (minimum of once), and you regain all expended uses when you finish a [[Ignore/dnd_5e_2014/Resting/Long Rest]].
+_**Number of Uses.**_ You can confer a Bardic Inspiration die a number of times equal to your Charisma modifier (minimum of once), and you regain all expended uses when you finish a [[Long Rest 1]].
 
 _**At Higher Levels.**_ Your Bardic Inspiration die changes when you reach certain Bard levels, as shown in the Bardic Die column of the Bard Features table. The die becomes a d8 at level 5, a d10 at level 10, and a d12 at level 15.
 
@@ -79,7 +79,7 @@ Whenever you gain a Bard level, you can replace one of your cantrips with anothe
 
 When you reach Bard levels 4 and 10, you learn another cantrip of your choice from the Bard spell list, as shown in the Cantrips column of the Bard Features table.
 
-_**Spell Slots.**_ The Bard Features table shows how many spell slots you have to cast your level 1+ spells. You regain all expended slots when you finish a [[Ignore/dnd_5e_2014/Resting/Long Rest]].
+_**Spell Slots.**_ The Bard Features table shows how many spell slots you have to cast your level 1+ spells. You regain all expended slots when you finish a [[Long Rest 1]].
 
 _**Prepared Spells of Level 1+.**_ You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose four level 1 spells from the Bard spell list. [[Charm Person]], [[Color Spray]], [[Dissonant Whispers]], and [[Healing Word]] are recommended.
 
@@ -115,7 +115,7 @@ You gain the Ability Score Improvement feat (see "Feats") or another feat of you
 
 ### Level 5: Font of Inspiration
 
-You now regain all your expended uses of Bardic Inspiration when you finish a Short or [[Ignore/dnd_5e_2014/Resting/Long Rest]].
+You now regain all your expended uses of Bardic Inspiration when you finish a Short or [[Long Rest 1]].
 
 In addition, you can expend a spell slot (no action required) to regain one expended use of Bardic Inspiration.
 

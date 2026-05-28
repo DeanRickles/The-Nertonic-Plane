@@ -76,7 +76,7 @@ _**Cantrips.**_ You know two Warlock cantrips of your choice. [[Eldritch Blast]]
 
 When you reach Warlock levels 4 and 10, you learn another Warlock cantrip of your choice, as shown in the Cantrips column of the Warlock Features table.
 
-_**Spell Slots.**_ The Warlock Features table shows how many spell slots you have to cast your Warlock spells of levels 1-5. The table also shows the level of those slots, all of which are the same level. You regain all expended Pact Magic spell slots when you finish a Short or [[Long Rest]].
+_**Spell Slots.**_ The Warlock Features table shows how many spell slots you have to cast your Warlock spells of levels 1-5. The table also shows the level of those slots, all of which are the same level. You regain all expended Pact Magic spell slots when you finish a Short or [[Long Rest 1]].
 
 For example, when you're a level 5 Warlock, you have two level 3 spell slots. To cast the level 1 spell [[Charm Person]], you must spend one of those slots, and you cast it as a level 3 spell.
 
@@ -94,7 +94,7 @@ _**Spellcasting Focus.**_ You can use an Arcane Focus as a [[Spellcasting Focus]
 
 ### Level 2: Magical Cunning
 
-You can perform an esoteric rite for 1 minute. At the end of it, you regain expended Pact Magic spell slots but no more than a number equal to half your maximum (round up). Once you use this feature, you can't do so again until you finish a [[Long Rest]].
+You can perform an esoteric rite for 1 minute. At the end of it, you regain expended Pact Magic spell slots but no more than a number equal to half your maximum (round up). Once you use this feature, you can't do so again until you finish a [[Long Rest 1]].
 
 ### Level 3: Warlock Subclass
 
@@ -108,15 +108,15 @@ You gain the Ability Score Improvement feat (see "Feats") or another feat of you
 
 In the past, you usually contacted your patron through intermediaries. Now you can communicate directly; you always have the [[Contact Other Plane]] spell prepared. With this feature, you can cast the spell without expending a spell slot to contact your patron, and you automatically succeed on the spell's saving throw.
 
-Once you cast the spell with this feature, you can't do so in this way again until you finish a [[Ignore/dnd_5e_2014/Resting/Long Rest]].
+Once you cast the spell with this feature, you can't do so in this way again until you finish a [[Long Rest 1]].
 
 ### Level 11: Mystic Arcanum
 
 Your patron grants you a magical secret called an arcanum. Choose one level 6 Warlock spell as this arcanum.
 
-You can cast your arcanum spell once without expending a spell slot, and you must finish a [[Long Rest]] before you can cast it in this way again.
+You can cast your arcanum spell once without expending a spell slot, and you must finish a [[Long Rest 1]] before you can cast it in this way again.
 
-As shown in the Warlock Features table, you gain another Warlock spell of your choice that can be cast in this way when you reach Warlock levels 13 (level 7 spell), 15 (level 8 spell), and 17 (level 9 spell). You regain all uses of your Mystic Arcanum when you finish a [[Long Rest]].
+As shown in the Warlock Features table, you gain another Warlock spell of your choice that can be cast in this way when you reach Warlock levels 13 (level 7 spell), 15 (level 8 spell), and 17 (level 9 spell). You regain all uses of your Mystic Arcanum when you finish a [[Long Rest 1]].
 
 Whenever you gain a Warlock level, you can replace one of your arcanum spells with another Warlock spell of the same level.
 
