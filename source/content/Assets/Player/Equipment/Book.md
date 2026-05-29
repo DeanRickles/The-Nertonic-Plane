@@ -1,6 +1,5 @@
 ---
 tags:
-  - dnd
   - equipment
 publish: true
 ---
