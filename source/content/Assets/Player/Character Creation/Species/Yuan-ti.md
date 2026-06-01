@@ -1,65 +1,44 @@
 ---
 tags:
   - species
-Status: complete
+Status: concept
 publish: true
 ---
-# Grung
+# Yuan-ti
 
-**Creature Type**: Humanoid
-**Size:** Small.
-**Speed:** 25 ft. walking, 25 ft. climbing.
+- **Creature Type:** Humanoid
+- **Size:** Medium (about 6-7 feet tall)
+- **Speed:** 30 feet
 
-**Age**. Grungs mature to adulthood in a single year, but have been known to live up to 50 years.
+**Size**. You are Medium or Small. You choose the size when you select this race.
 
-**Alignment**. Most grungs are lawful, having been raised in a strict caste system. They tend toward evil as well, coming from a culture where social advancement occurs rarely, and most often because another member of your army has died and there is no one else of that caste to fill the vacancy.
+As an Yuan-ti, you have these special traits.
 
-**Size**. Grungs stand between 2½ and 3½ feet tall and average about 30 pounds. Your size is Small.
+**Darkvision**. You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.
 
-As an Grung, you have these special traits.
+**Magic Resistance**. You have advantage on saving throws against spells.
 
-**Arboreal Alertness**. You have proficiency in the Perception skill.
+**Poison Resilience**. You have advantage on saving throws you make to avoid or end the poisoned condition on yourself. You also have resistance to poison damage.
 
-**Amphibious**. You can breathe air and water.
+**Serpentine Spellcasting**. You know the poison spray cantrip. You can cast animal friendship an unlimited number of times with this trait, but you can target only snakes with it. Starting at 3rd level, you can also cast suggestion with this trait. Once you cast it, you can't do so again until you finish a long rest. You can also cast it using any spell slots you have of 2nd level or higher.
 
-**Poison Immunity**. You're immune to poison damage and the poisoned condition.
+Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race).
 
-**Poisonous Skin**. Any creature that grapples you or otherwise comes into direct contact with your skin must succeed on a DC 12 Constitution saving throw or become poisoned for 1 minute. A poisoned creature no longer in direct contact with you can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
+**Languages**. You can speak, read, and write Common and one other language that you and your DM agree is appropriate for your character.
 
-You can also apply this poison to any piercing weapon as part of an attack with that weapon, though when you hit the poison reacts differently. The target must succeed on a DC 12 Constitution saving throw or take 2d4 poison damage.
 
-**Standing Leap**. Your long jump is up to 25 feet and your high jump is up to 15 feet, with or without a running start.
 
-**Water Dependency**. If you fail to immerse yourself in water for at least 1 hour during a day, you suffer one level of exhaustion at the end of that day. You can only recover from this exhaustion through magic or by immersing yourself in water for at least 1 hour.
+%% commented out
 
-**Languages**. You can speak, read, and write Grung.
+[IMAGE]
 
-![[001.webp|400]]
-
-%% commented out.
 # notes
+Yuan-Ti
+**Creature Type**: Humanoid
+**Size**: Small or Medium
+**Speed**: 30 feet
 
 
-**Grung Caste System (Color Variations)**
-Grung society is divided by color, which can affect the type of poison applied:
-- **Green:** Laborers and warriors.
-- **Blue:** Artisans.
-- **Purple:** Administrators and commanders.
-- **Red:** Scholars and magic users. ( Located at the Mages Tower.)
-- **Orange:** Elite warriors.
-- **Gold:** Elite leaders. [[1](https://www.youtube.com/watch?v=o1sjw3TImNs&t=47), [2](https://www.youtube.com/watch?v=gm9vHsCfts0&t=19)]
-
-**Combat Tactics**
-
-- **Preferred Weapons:** Daggers, shortbows, and whips.
-- **Tactics:** Utilize high mobility to jump in and out of combat, using poison to debilitate melee attackers.
-- **Synergy:** Excellent for classes like Rogues, Rangers, and Fighters due to their 
-
-**Important Notes for Players**
-
-- **No Common:** Grung typically only speak their own language.
-- **Exiles:** Player characters are often those who have left their rigid, evil-leaning societies.
-- **Source Material:** Grung were originally featured in the _One Grung Above_ article and later in _Mordenkainen Presents: Monsters of the Multiverse_.
 
 
 ## Lore & Origin
