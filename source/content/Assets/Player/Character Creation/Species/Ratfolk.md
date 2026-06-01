@@ -26,6 +26,7 @@ _**Naturally Stealthy.**_ You can take the [[Hide]] action even when you are obs
 ![[Ratfolk_published.jpg|400]]
 
 
+%% commenting out unfinished section
 ## Lore & Origin
 *   **Divine/Primal Source:** Describe the ultimate origin of this race. Was it created by a god, forged from elemental chaos, evolved naturally? If divine, which deity or aspect?
 *   **Creation Story:** A brief narrative of how this race came to be. What was its purpose?
@@ -65,4 +66,4 @@ _**Naturally Stealthy.**_ You can take the [[Hide]] action even when you are obs
     *   **Female:** Example Name 1, Example Name 2, Example Name 3
     *   **Clan/Family/Tribe:** Example Name 1, Example Name 2
 
----
+%%
