@@ -73,5 +73,6 @@ The first blight was placed into a deep slumber but still excretes SAP that the 
 - [ ] How many live there?
 - [ ] How many live in the forest?
 - [ ] Blight SAP can be sored in glass viles.
-- [ ] 
+
+%%
 
