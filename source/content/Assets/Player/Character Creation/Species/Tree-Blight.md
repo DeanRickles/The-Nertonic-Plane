@@ -24,7 +24,7 @@ As an [[Tree-Blight]], you have these special traits.
 
 **Natural Regrowth**. You cannot receive healing through magical means. As a bonus action, you can spend one Hit Die to heal yourself. Roll the die, add your Constitution modifier, and regain a number of hit points equal to the total (minimum of 1).
 
-**Deep Slumber**. During a long rest you go into a deep slumber and cannot be awoken until 8 hours pass. *While asleep you root to the ground, make DC Str against 10 + con modifier or grappled to the floor. Can try break the grapple at the end of your next turn.*
+**Deep Slumber**. During a long rest you go into a deep slumber and cannot be awoken until 8 hours pass. 
 
 **Language.**. You can speak with plants.
 #### Image
