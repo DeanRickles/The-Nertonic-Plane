@@ -4,7 +4,7 @@ tags:
   - species
   - Homebrew
 Status: complete
-version: 0.1
+version: 0.2
 publish: true
 hide_from_explorer: false
 hide_from_all: false
@@ -20,13 +20,14 @@ As an [[Tree-Blight]], you have these special traits.
 
 **Tree Life**. Age is but a number, you do not grow old. 
 
-**Bark skin**. You gain resistances to bludgeoning and Piercing but vulnerable to fire.
+**Bark skin**. You gain resistances to bludgeoning, slashing, and piercing but vulnerable to fire.
 
-**Natural Regrowth**. You cannot receive healing through magical means. As a bonus action, you can spend one Hit Die to heal yourself. Roll the die, add your Constitution modifier, and regain a number of hit points equal to the total (minimum of 1).
+**Natural Regrowth**. You cannot receive healing through magical means. As a [[bonus action]], you can spend one [[Hit Point Dice]] to heal yourself. Roll the die, add your [[Constitution]] modifier, and regain a number of [[Hit Points]] equal to the total (minimum of 1).
 
-**Deep Slumber**. During a long rest you go into a deep slumber and cannot be awoken until 8 hours pass. 
+**Deep Slumber**. During a [[Long Rest]] you go into a deep slumber and cannot be awoken until 8 hours pass. 
 
 **Language.**. You can speak with plants.
+
 #### Image
 ![[Tree-Blight_published.png|400]]
 
