@@ -28,7 +28,7 @@ As an [[Tree-Blight]], you have these special traits.
 
 **Language.**. You can speak with plants.
 #### Image
-![[Tree-Blight_publish.png|400]]
+![[Tree-Blight_published.png|400]]
 
 %% commented out
 ## DM Notes
