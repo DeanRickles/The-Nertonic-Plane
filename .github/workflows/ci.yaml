@@ -35,10 +35,6 @@ jobs:
         run: chmod +x ./quartz/bootstrap-cli.mjs
         working-directory: ./source
 
-      - name: Add Leaflet Plugin
-        run: npx quartz plugin add github:Requiae/quartz-leaflet-bases-plugin
-        working-directory: ./source
-
       - name: Ensure Quartz builds
         run: npx quartz build --bundleInfo
         working-directory: ./source
