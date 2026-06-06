@@ -454,7 +454,15 @@ document.addEventListener("nav", async (e: CustomEventMap["nav"]) => {
       ...getByField("content"),
       ...getByField("tags"),
     ])
-    const finalResults = [...allIds].map((id) => formatForDisplay(currentSearchTerm, id))
+    const finalResults = [...allIds]
+      .map((id) => formatForDisplay(currentSearchTerm, id))
+      .filter((item) => {
+        const fm = data[item.slug]?.frontmatter
+        if (!fm) return true
+        if (fm.hide_from_all === true) return false
+        if (fm.hide_from_explorer === true) return false
+        return true
+      })
     await displayResults(finalResults)
   }
 
