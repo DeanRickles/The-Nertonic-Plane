@@ -212,15 +212,6 @@ document.addEventListener("nav", async (e: CustomEventMap["nav"]) => {
       const searchBarOpen = container?.classList.contains("active")
       searchBarOpen ? hideSearch() : showSearch("basic")
       return
-    } else if (e.shiftKey && (e.ctrlKey || e.metaKey) && e.key.toLowerCase() === "k") {
-      // Hotkey to open tag search
-      e.preventDefault()
-      const searchBarOpen = container?.classList.contains("active")
-      searchBarOpen ? hideSearch() : showSearch("tags")
-
-      // add "#" prefix for tag search
-      if (searchBar) searchBar.value = "#"
-      return
     }
 
     if (currentHover) {
@@ -277,9 +268,9 @@ document.addEventListener("nav", async (e: CustomEventMap["nav"]) => {
     return {
       id,
       slug,
-      title: searchType === "tags" ? data[slug].title : highlight(term, data[slug].title ?? ""),
+      title: highlight(term, data[slug].title ?? ""),
       content: highlight(term, data[slug].content ?? "", true),
-      tags: highlightTags(term.substring(1), data[slug].tags),
+      tags: [],
     }
   }
 
@@ -404,38 +395,10 @@ document.addEventListener("nav", async (e: CustomEventMap["nav"]) => {
     if (!searchLayout || !index) return
     currentSearchTerm = (e.target as HTMLInputElement).value
     searchLayout.classList.toggle("display-results", currentSearchTerm !== "")
-    searchType = currentSearchTerm.startsWith("#") ? "tags" : "basic"
+    searchType = "basic"
 
     let searchResults: FlexSearch.SimpleDocumentSearchResultSetUnit[]
-    if (searchType === "tags") {
-      currentSearchTerm = currentSearchTerm.substring(1).trim()
-      const separatorIndex = currentSearchTerm.indexOf(" ")
-      if (separatorIndex != -1) {
-        // search by title and content index and then filter by tag (implemented in flexsearch)
-        const tag = currentSearchTerm.substring(0, separatorIndex)
-        const query = currentSearchTerm.substring(separatorIndex + 1).trim()
-        searchResults = await index.searchAsync({
-          query: query,
-          // return at least 10000 documents, so it is enough to filter them by tag (implemented in flexsearch)
-          limit: Math.max(numSearchResults, 10000),
-          index: ["title", "content"],
-          tag: tag,
-        })
-        for (let searchResult of searchResults) {
-          searchResult.result = searchResult.result.slice(0, numSearchResults)
-        }
-        // set search type to basic and remove tag from term for proper highlightning and scroll
-        searchType = "basic"
-        currentSearchTerm = query
-      } else {
-        // default search by tags index
-        searchResults = await index.searchAsync({
-          query: currentSearchTerm,
-          limit: numSearchResults,
-          index: ["tags"],
-        })
-      }
-    } else if (searchType === "basic") {
+    if (searchType === "basic") {
       searchResults = await index.searchAsync({
         query: currentSearchTerm,
         limit: numSearchResults,
