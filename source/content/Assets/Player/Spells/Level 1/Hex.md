@@ -4,7 +4,6 @@ tags:
   - spell
   - level-1
 publish: true
-hide_from_all:
 hide_from_explorer:
 ---
 # Hex

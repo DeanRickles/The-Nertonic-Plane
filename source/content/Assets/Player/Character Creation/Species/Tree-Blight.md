@@ -7,7 +7,6 @@ Status: complete
 version: 0.2
 publish: true
 hide_from_explorer: false
-hide_from_all: false
 ---
 # Tree-Blight
 

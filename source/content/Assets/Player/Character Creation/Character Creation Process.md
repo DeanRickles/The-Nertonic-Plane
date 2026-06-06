@@ -4,7 +4,6 @@ Status: complete
 version: 0.3
 publish: true
 hide_from_explorer: false
-hide_from_all: false
 ---
 # Character Creation Process
 

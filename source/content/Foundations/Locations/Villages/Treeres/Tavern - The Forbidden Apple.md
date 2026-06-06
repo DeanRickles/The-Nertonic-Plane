@@ -2,7 +2,6 @@
 tags:
 Status: todo
 publish: true
-hidden_Explorer: true
 ---
 # The Forbidden Apple
 Based in the  [[Village of Treeres]].

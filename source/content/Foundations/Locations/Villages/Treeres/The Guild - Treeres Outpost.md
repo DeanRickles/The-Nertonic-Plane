@@ -3,7 +3,6 @@ tags:
   - Guild
 Status: concept
 publish: true
-hidden_Explorer: true
 ---
 # The Guild - Treeres Outpost
 Based in the [[Village of Treeres]].

@@ -4,8 +4,7 @@ tags:
   - Homebrew
 Status: concept
 publish: true
-hide_from_all: true
-hidden_Explorer: true
+hide_from_explorer: true
 ---
 # Pouch of Holding
 _Wondrous Item, Uncommon_

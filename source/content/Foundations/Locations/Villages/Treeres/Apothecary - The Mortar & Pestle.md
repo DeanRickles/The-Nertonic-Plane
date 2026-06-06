@@ -2,7 +2,6 @@
 tags:
 Status: concept
 publish: true
-hidden_Explorer: true
 ---
 # Apothecary - The Mortar & Pestle
 Based in the  [[Village of Treeres]].

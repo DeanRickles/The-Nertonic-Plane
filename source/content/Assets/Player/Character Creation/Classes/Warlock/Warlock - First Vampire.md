@@ -2,7 +2,6 @@
 tags:
 publish: true
 hide_from_explorer: false
-hide_from_all: false
 ---
 # Warlock
 

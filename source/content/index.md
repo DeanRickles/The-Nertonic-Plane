@@ -4,7 +4,6 @@ Status: Concept
 version: 0.1
 publish: true
 hide_from_explorer: false
-hide_from_all: false
 ---
 Welcome to [[The Nertonic Plane]].
 

@@ -5,8 +5,6 @@ tags:
 Status: complete
 version: 0
 publish: true
-hide_from_all:
-hidden_Explorer:
 ---
 # Feats
 

@@ -3,8 +3,6 @@ tags:
   - dnd
   - equipment
 publish: true
-hidden_Explorer:
-hide_from_all:
 ---
 # Adventuring Gear
 

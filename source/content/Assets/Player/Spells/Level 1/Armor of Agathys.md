@@ -5,7 +5,6 @@ tags:
   - level-1
 publish: true
 hide_from_explorer: false
-hide_from_all: false
 ---
 # Armor of Agathys
 _Level 1 Abjuration_                                                                                                      

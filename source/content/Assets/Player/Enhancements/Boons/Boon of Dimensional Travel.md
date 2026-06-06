@@ -3,7 +3,6 @@ tags:
   - dnd
   - boon
 publish: true
-hidden_Explorer: true
 ---
 # Boon of Dimensional Travel
 
