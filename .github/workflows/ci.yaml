@@ -63,7 +63,6 @@ jobs:
         run: |
           npm install
           chmod +x ./quartz/bootstrap-cli.mjs
-          npx quartz plugin add github:Requiae/quartz-leaflet-bases-plugin
           npx quartz build
         working-directory: ./source
 
