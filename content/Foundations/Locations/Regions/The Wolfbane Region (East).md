@@ -11,19 +11,24 @@ Based in [[The Nertonic Plane]].
 The region of [[The Guild]]. under the banner of "The Alliance".
 
 
-## Town
-- [[Town of Talondrum|Talondrum]]
-- [[Town of Riverforest|Riverforest]]
-- [[Town of Greenwatch|Greenwatch]]
-- [[Town of Daggerport|Daggerport]]
+# List of Towns
+%% Generate list:"/Foundations/Locations/Town/East" %%
+<!-- START_LIST -->
+- [[Town of Daggerport]]
+- [[Town of Greenwatch]]
+- [[Town of Riverforest]]
+- [[Town of Talondrum]]
+<!-- END_LIST -->
 
-## Village
- - [[Village of Basaltfield|Basaltfield]]
- - [[Village of Boninfer|Boninfer]]
- - [[Village of Drydrift|Drydrift]]
- - [[Village of Griffinfeld|Griffinfeld]]
- - [[Village of Ilexwall|Ilexwall]]
- - [[Village of Pikeford|Pikeford]]
- - [[Village of Septabane|Septabane]]
- - [[Village of Treeres|Treeres]]
- 
+# List of Villages
+%% Generate list:"/Foundations/Locations/Villages/East" %%
+<!-- START_LIST -->
+- [[Village of Basaltfield]]
+- [[Village of Boninfer]]
+- [[Village of Drydrift]]
+- [[Village of Griffinfeld]]
+- [[Village of Ilexwall]]
+- [[Village of Pikeford]]
+- [[Village of Septabane]]
+- [[Village of Treeres]]
+<!-- END_LIST --> 

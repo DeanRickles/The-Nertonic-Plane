@@ -7,6 +7,8 @@ unlisted: true
 # Apothecary - The Mortar & Pestle
 Based in the  [[Village of Treeres]].
 
+%%
+
 ## Scene
 ### Outside
 
@@ -25,14 +27,17 @@ Small back room with some storage.
 #### Floor - Basement
 Nothing really kept there. Boxes of old stuff.
 
+
 ## NPCs
 #### Soris Merla
 Species: [[Human]]
 Age: 46
+
 Personality: Little nutty
 Believes: [[Eldath, God of Peace]]. 
 Items: None
 Description:  Lived a long life foraging and scraping until they opened thier shop.
+
 
 ## Lore
 The Adventures of [[Placeholder party name]]

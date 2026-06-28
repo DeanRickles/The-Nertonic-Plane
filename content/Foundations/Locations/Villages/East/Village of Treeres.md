@@ -2,7 +2,7 @@
 tags:
 Status: todo
 publish: true
-unlisted:
+unlisted: true
 marker:
   - coordinates: 1401, 1546
     mapName: The-Nertonic-Plane
@@ -11,3 +11,4 @@ marker:
 ---
 # Village of Treeres
 Based in the [[The Wolfbane Region (East)]].
+

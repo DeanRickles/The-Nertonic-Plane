@@ -9,16 +9,13 @@ unlisted:
 Based in [[The Nertonic Plane]].
 
 
+# List of Towns
+%% Generate list:"/Foundations/Locations/Town/North" %%
+<!-- START_LIST -->
+- [[Town of Greenwalk]]
+- [[Town of Mudbrook]]
+- [[Town of Umberworth]]
+<!-- END_LIST -->
 
-## Towns 
-- [[Town of Umberworth|Umberworth]]
-- [[Town of Greenwalk|Greenwalk]]
-- [[Town of Mudbrook|Mudbrook]]
-
-## Villages
-- [[Village of Northersteel|Northersteel]]
-- [[Village of Ironford|Ironford]]
-- [[Village of Whitesong|Whitesong]]
-- [[Village of Pikecrest|Pikecrest]]
-- [[Village of Blackpost|Blackpost]]
-
+# List of Villages
+%% Generate list:"/Foundations/Locations/Village/North" %%

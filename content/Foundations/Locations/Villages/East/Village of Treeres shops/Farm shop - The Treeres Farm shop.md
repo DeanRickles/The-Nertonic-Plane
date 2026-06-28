@@ -37,8 +37,7 @@ Based in the [[Village of Treeres]].
 * **Motivation:** What drives them *specifically* in this act? What do they want to achieve?
 * **Secrets:** What crucial information do they possess that the players do not?
 * **Key Dialogue/Actions:** Prepare a few memorable lines or outline their likely course of action.
-* **Stat Block/Abilities:** (Link or brief description if relevant for encounters)
-*  
+* **Stat Block/Abilities:** (Link or brief description if relevant for encounters)  
 
 
 
@@ -56,4 +55,3 @@ Example section to do with apothecary.
 # Quests
 List of all the quests connected.
 - Example Quest
-

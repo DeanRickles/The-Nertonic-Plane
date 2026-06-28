@@ -26,8 +26,23 @@ _**Repeatable.**_ A feat can be taken only once unless its description states ot
 ---
 
 # Feat List
+### Level 01
+%% Generate list:"Assets/Player/Enhancements/Feats/Level 01" %%
+<!-- START_LIST -->
+- [[Ability Score Improvement]]
+- [[Alert]]
+- [[Archery]]
+- [[Defense]]
+- [[Great Weapon Fighting]]
+- [[Magic Initiate]]
+- [[Savage Attacker]]
+- [[Skilled]]
+- [[Two-Weapon Fighting]]
+<!-- END_LIST -->
 
+### Level 04
+%% Generate list:"Assets/Player/Enhancements/Feats/Level 04" %%
+<!-- START_LIST -->
+- [[Grappler]]
+<!-- END_LIST -->
 
-![[_Feat_level-01#Feat Level 01]]
-
-![[_Feat_level-04#Feat Level 04]]
