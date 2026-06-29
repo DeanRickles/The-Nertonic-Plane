@@ -1,0 +1,202 @@
+name: Build and Test
+
+on:
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * *' # Run daily at midnight to cleanup
+
+env:
+  THEME_NAME: catppuccin
+
+jobs:
+  build-and-test:
+    if: github.event_name == 'push' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Fetch Quartz Theme
+        run: curl -s -S https://raw.githubusercontent.com/saberzero1/quartz-themes/master/action.sh | bash -s -- $THEME_NAME
+
+      - name: Format
+        run: npx prettier --write .
+
+      - name: Cache dependencies
+        uses: actions/cache@v4
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+
+      - name: Cache Quartz plugins
+        uses: actions/cache@v4
+        with:
+          path: .quartz/plugins
+          key: ${{ runner.os }}-plugins-${{ hashFiles('quartz.lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-plugins-
+
+      - run: npm ci
+
+      - name: Install Quartz plugins
+        run: npx quartz plugin install
+
+      - name: Check types and style
+        run: npm run check
+
+      - name: Test
+        run: npm test
+
+      - name: Ensure Quartz builds, check bundle info
+        run: npx quartz build --bundleInfo -d docs
+
+#  publish-tag:
+#    needs: build-and-test
+#    runs-on: ubuntu-latest
+#    permissions:
+#      contents: write
+#    steps:
+#      - uses: actions/checkout@v4
+#        with:
+#          fetch-depth: 0
+#      - name: Setup Node
+#        uses: actions/setup-node@v4
+#        with:
+#          node-version: 22
+#      - name: Get package version
+#        id: vars
+#        run: echo "version=$(node -p "require('./package.json').version")" >> $GITHUB_OUTPUT
+#      - name: Create release tag
+#        uses: pkgdeps/git-tag-action@v3
+#        with:
+#          github_token: ${{ secrets.GITHUB_TOKEN }}
+#          github_repo: ${{ github.repository }}
+#          version: ${{ steps.vars.outputs.version }}
+#          git_commit_sha: ${{ github.sha }}
+#          git_tag_prefix: "v"
+
+  deploy:
+    needs: build-and-test
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Build Quartz
+        run: |
+          npm ci
+          npx quartz plugin install --from-config
+          npx quartz build
+        working-directory: .
+
+      - name: Copy raw HTML folder
+        run: |
+          if [ -d "raw_html" ]; then
+            cp -r raw_html/* public/
+          fi
+        working-directory: .
+
+      - name: Setup GitHub Pages
+        uses: actions/configure-pages@v4
+
+      - name: Upload GitHub Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./public
+          retention-days: 1
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+  cleanup:
+    needs: deploy
+    runs-on: ubuntu-latest
+    permissions:
+      actions: write
+      contents: read
+      deployments: write
+    steps:
+      - name: Delete old workflow runs
+        uses: Mattraks/delete-workflow-runs@v2
+        with:
+          token: ${{ github.token }}
+          repository: ${{ github.repository }}
+          retain_days: 0
+          keep_minimum_runs: 3
+
+      - name: Delete old deployments
+        uses: strumwolf/delete-deployment-environment@v2
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          environment: github-pages
+          onlyRemoveDeployments: true
+
+  repo-squash:
+    needs: deploy
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Squash and Force Push
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # We want to keep the last 2 commits
+          KEEP=2
+          COUNT=$(git rev-list --count HEAD)
+          
+          if [ "$COUNT" -gt $((KEEP + 1)) ]; then
+            echo "Current commit count: $COUNT. Squashing all but the last $KEEP commits..."
+            
+            # Save SHAs of commits to keep (newest first, then reversed for cherry-pick)
+            SHAS=$(git rev-list -n $KEEP HEAD | tac)
+            
+            # Create orphan branch at the state of the commit before the ones we keep
+            git checkout --orphan temp-branch HEAD~$KEEP
+            git add -A
+            git commit -m "Auto-squash base: $(date +'%Y-%m-%d %H:%M:%S')"
+            
+            # Cherry-pick the saved SHAs to restore the last 2 commits
+            for sha in $SHAS; do
+              git cherry-pick $sha
+            done
+            
+            # Force push to overwrite the remote branch
+            git push origin temp-branch:${{ github.ref_name }} --force
+          else
+            echo "Commit count ($COUNT) is low. Skipping squash."
+          fi
+
+
